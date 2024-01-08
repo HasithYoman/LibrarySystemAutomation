@@ -16,7 +16,7 @@ test.only('Login Function Test', async ({page}) =>{
 
     const submitButton = await page.waitForSelector('input[type="submit"][value="Log In"].accessSubmit'); 
     await submitButton.click({ timeout: 120000 });
-    await page.waitForNavigation({ });
+    //await page.waitForNavigation({ });
     await page.pause();
 
     

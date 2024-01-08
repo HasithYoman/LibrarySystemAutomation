@@ -11,7 +11,7 @@ test.only('Select specified subject under Dropdown List testing', async ({page})
 
     //Select specified subject under Dropdown List
     await page.getByRole('link', { name: 'Clothing & Fashion' }).click();
-    await page.waitForNavigation({ timeout: 120000 });
+    //await page.waitForNavigation({ timeout: 120000 });
     await page.pause()
 
 
